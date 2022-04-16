@@ -14,3 +14,38 @@
 [2022-04-16T22:39:54.530Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
 [2022-04-16T22:39:54.542Z] > git config --get commit.template [1ms]
 [2022-04-16T22:39:55.198Z] > git config --local branch.master.github-pr-owner-number [59ms]
+[2022-04-16T22:42:07.005Z] > git add -A -- . [1025ms]
+[2022-04-16T22:42:07.017Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [5ms]
+[2022-04-16T22:42:07.017Z] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+[2022-04-16T22:42:07.024Z] > git config --get-all user.name [1ms]
+[2022-04-16T22:42:12.289Z] > git symbolic-ref --short HEAD [1ms]
+[2022-04-16T22:42:12.299Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [3ms]
+[2022-04-16T22:42:12.313Z] > git remote --verbose [2ms]
+[2022-04-16T22:42:12.314Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+[2022-04-16T22:42:12.324Z] > git config --get commit.template [1ms]
+[2022-04-16T22:43:51.391Z] > git symbolic-ref --short HEAD [1ms]
+[2022-04-16T22:43:51.397Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [1ms]
+[2022-04-16T22:43:51.408Z] > git remote --verbose [1ms]
+[2022-04-16T22:43:51.408Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-04-16T22:43:51.418Z] > git config --get commit.template [1ms]
+[2022-04-16T22:43:56.511Z] > git ls-files --stage -- /home/devlinuxmv/.vscode-server/data/logs/20220416T173845/exthost5/output_logging_20220416T193216/2-Git.log [3ms]
+[2022-04-16T22:43:56.520Z] > git cat-file -s 783d257767dd12936ca1a7cec75f95fc378a3e1c [1ms]
+[2022-04-16T22:44:20.776Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [129ms]
+[2022-04-16T22:44:21.782Z] > git symbolic-ref --short HEAD [1ms]
+[2022-04-16T22:44:21.789Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [1ms]
+[2022-04-16T22:44:21.802Z] > git remote --verbose [1ms]
+[2022-04-16T22:44:21.803Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-04-16T22:44:21.877Z] > git config --get commit.template [4ms]
+[2022-04-16T22:44:21.985Z] > git config --local branch.master.github-pr-owner-number [4ms]
+[2022-04-16T22:44:22.104Z] > git ls-tree -l HEAD -- /home/devlinuxmv/.vscode-server/data/logs/20220416T173845/exthost5/output_logging_20220416T193216/2-Git.log [1ms]

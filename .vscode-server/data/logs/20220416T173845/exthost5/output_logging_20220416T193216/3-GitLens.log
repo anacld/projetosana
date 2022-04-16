@@ -1,2 +1,4 @@
 [2022-04-16 22:40:50.529] [GIT  ] [/home/devlinuxmv] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • bad revision '@' • 6 ms
 
+[2022-04-16 22:43:56.994] [GIT  ] [/home/devlinuxmv] git blame --root --incremental -- .vscode-server/data/logs/20220416T173845/exthost5/output_logging_20220416T193216/2-Git.log • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false blame --root --incremental -- .vscode-server/data/logs/20220416T173845/exthost5/output_logging_20220416T193216/2-Git.log • no such ref: HEAD • 8 ms
+
