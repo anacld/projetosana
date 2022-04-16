@@ -1,0 +1,17 @@
+[2022-04-16 19:32:16.231] [exthost] [info] Extension host with pid 1811 started
+[2022-04-16 19:32:16.255] [exthost] [info] Lock '/home/devlinuxmv/.vscode-server/data/User/workspaceStorage/eda8758653f6a35875f95a84c325a9cb/vscode.lock': Lock acquired.
+[2022-04-16 19:32:16.540] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-16 19:32:16.559] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-16 19:32:16.569] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-16 19:32:16.675] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-04-16 19:32:17.015] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: true, activationEvent: '*'
+[2022-04-16 19:32:17.495] [exthost] [info] ExtensionService#_doActivateExtension YouMayCallMeV.vscode-java-saber, startup: true, activationEvent: '*'
+[2022-04-16 19:32:17.686] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-16 19:32:17.961] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-16 19:32:20.317] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-16 19:32:20.445] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-16 19:32:20.466] [exthost] [info] ExtensionService#_doActivateExtension cweijan.vscode-mysql-client2, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-16 19:32:21.629] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-16 19:32:21.662] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-16 19:32:21.809] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-16 19:32:21.915] [exthost] [info] Eager extensions activated

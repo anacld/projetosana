@@ -1,0 +1,16 @@
+[2022-04-16T22:32:18.174Z] Validating found git in: git
+[2022-04-16T22:32:18.312Z] Using git 2.25.1 from git
+[2022-04-16T22:32:18.687Z] > git rev-parse --git-dir [290ms]
+[2022-04-16T22:32:18.709Z] Open repository: /home/devlinuxmv
+[2022-04-16T22:32:21.936Z] > git symbolic-ref --short HEAD [4ms]
+[2022-04-16T22:32:22.106Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [162ms]
+[2022-04-16T22:32:22.182Z] > git remote --verbose [54ms]
+[2022-04-16T22:32:22.183Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [67ms]
+[2022-04-16T22:32:22.219Z] > git config --get commit.template [6ms]
+[2022-04-16T22:32:22.263Z] > git config --local branch.master.github-pr-owner-number [2ms]
+[2022-04-16T22:39:54.510Z] > git symbolic-ref --short HEAD [1ms]
+[2022-04-16T22:39:54.517Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [1ms]
+[2022-04-16T22:39:54.529Z] > git remote --verbose [1ms]
+[2022-04-16T22:39:54.530Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-04-16T22:39:54.542Z] > git config --get commit.template [1ms]
+[2022-04-16T22:39:55.198Z] > git config --local branch.master.github-pr-owner-number [59ms]
